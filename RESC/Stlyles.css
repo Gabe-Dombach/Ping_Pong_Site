@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.index_Header{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    font-size:xx-large;
+    background-color: aliceblue;
+
+}
+.index_Header ul{
+    list-style-type: none;
+}
+.index_Header li{
+    float:left;
+    margin:5%;
+    margin-top:0;
+    margin-bottom:0;
+    padding:.5vw;
+    color: orangered;
+    
+}
+.index_Header li:hover{
+    background-color:orangered;
+    color:aliceblue;
+}
+.index_Header a{
+    text-decoration: none;
+    font-style: obliqueq;
+    color: inherit;
+}
+.index_Title{
+    margin:auto;
+    margin-top:4vh;
+}
